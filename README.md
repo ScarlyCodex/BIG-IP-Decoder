@@ -4,7 +4,7 @@
 # Installation
 #### VIA go install
 `go install github.com/ScarlyCodex/BIG-IP-Decoder@latest`
-#### VIA git clon
+#### VIA git clone
 ```
 git clone https://github.com/ScarlyCodex/BIG-IP-Decoder.git
 cd BIG-IP-Decoder
