@@ -24,7 +24,6 @@ func printBanner() {
 }
 
 // Function to decode the BIG-IP cookie value and extract the internal IP address and port
-// Function to decode the BIG-IP cookie value and extract the internal IP address and port
 func decodeBigIP(value string) (string, int) {
 	// Split the cookie value into IP and port components
 	parts := strings.Split(value, ".")
