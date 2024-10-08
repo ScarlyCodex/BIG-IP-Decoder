@@ -11,7 +11,6 @@ sudo mv ~/go/bin/BIG-IP-Decoder /usr/local/bin/big_ip_decoder
 ```
 git clone https://github.com/ScarlyCodex/BIG-IP-Decoder.git
 cd BIG-IP-Decoder
-go build -gccgoflags="-s -w" -o big_ip_decoder big_ip_decoder.go
 sudo mv big_ip_decoder /usr/local/bin/big_ip_decoder
 ```
 # Usage
