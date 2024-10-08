@@ -5,10 +5,10 @@
 #### Quickly installation
 `go install github.com/ScarlyCodex/BIG-IP-Decoder@latest`
 #### Manual installation
-`git clone https://github.com/ScarlyCodex/BIG-IP-Decoder.git\n`
-
-`cd BIG-IP-Decoder`
-
-`go build -gccgoflags="-s -w" -o big_ip_decoder big_ip_decoder.go`
+```
+git clone https://github.com/ScarlyCodex/BIG-IP-Decoder.git
+cd BIG-IP-Decoder
+go build -gccgoflags="-s -w" -o big_ip_decoder big_ip_decoder.go
+```
 # Usage
 `./big_ip_decoder <url>`
