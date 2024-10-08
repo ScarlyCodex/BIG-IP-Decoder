@@ -24,6 +24,7 @@ func printBanner() {
 }
 
 // Function to decode the BIG-IP cookie value and extract the internal IP address and port
+// Function to decode the BIG-IP cookie value and extract the internal IP address and port
 func decodeBigIP(value string) (string, int) {
 	// Split the cookie value into IP and port components
 	parts := strings.Split(value, ".")
@@ -63,10 +64,7 @@ func decodeBigIP(value string) (string, int) {
 		return strings.Join(decodedIP, "."), 0
 	}
 
-	// Force the port to 443 if required
-	port = 443
-
-	// Return the decoded IP and the forced port
+	// Return the decoded IP and the real port
 	return strings.Join(decodedIP, "."), port
 }
 
